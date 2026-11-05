@@ -1,0 +1,5 @@
+Histórico planificado: operar S/ 1 140 800,00 inversión no desagregada S/ 99 200,00
+Histórico ejecutado: operar S/ 1 030 973,58 inversión no desagregada S/ 113 753,77
+Pagos candidatos TI por concepto: 2342 S/ 3 705 118,58 — no conciliados al presupuesto; no imputar al TCO.
+Inversiones cerradas: 3 ; beneficio medido: 0
+Propuesta: inversión inicial por categoría [590000, 250000, 160000]

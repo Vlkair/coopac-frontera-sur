@@ -1,0 +1,9 @@
+PR-01 No hacer nada TCO S/ 0,00 costo con pérdida residual S/ 600 000,00
+PR-01 Solución mínima TCO S/ 190 000,00 costo con pérdida residual S/ 520 000,00
+PR-01 Solución completa TCO S/ 400 000,00 costo con pérdida residual S/ 460 000,00
+PR-02 No hacer nada TCO S/ 0,00 costo con pérdida residual S/ 500 000,00
+PR-02 Solución mínima TCO S/ 180 000,00 costo con pérdida residual S/ 455 000,00
+PR-02 Solución completa TCO S/ 335 000,00 costo con pérdida residual S/ 395 000,00
+PR-08 No hacer nada TCO S/ 0,00 costo con pérdida residual S/ 500 000,00
+PR-08 Solución mínima TCO S/ 155 000,00 costo con pérdida residual S/ 455 000,00
+PR-08 Solución completa TCO S/ 310 000,00 costo con pérdida residual S/ 385 000,00

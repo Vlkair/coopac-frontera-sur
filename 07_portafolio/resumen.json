@@ -1,0 +1,1935 @@
+{
+  "portafolio": [
+    {
+      "codigo": "PR-01",
+      "proyecto": "Expedientes de crédito trazables",
+      "categoria": "Operar",
+      "fuente": "Brecha de arquitectura",
+      "seccion_origen": "5.4.2",
+      "objetivo": "OE-01",
+      "evidencia": "Ficha C y G: carpetas sin auditoría; 1 900 expedientes accedidos indebidamente",
+      "entregable": "Repositorio con permisos por rol, migración piloto, bitácora de lectura y alertas",
+      "criterio": "100 % de lecturas piloto trazadas; pruebas de permisos sin accesos indebidos",
+      "responsable": "Créditos y TI",
+      "meses": 8,
+      "predecesores": [
+        "PR-04",
+        "PR-05"
+      ],
+      "inicial": 180000,
+      "anual": 42000,
+      "salida": 10000,
+      "margen_pct": 35
+    },
+    {
+      "codigo": "PR-02",
+      "proyecto": "Continuidad y recuperación verificable",
+      "categoria": "Operar",
+      "fuente": "Brecha de arquitectura",
+      "seccion_origen": "5.4.2",
+      "objetivo": "OE-02",
+      "evidencia": "Ficha E, F y H: respaldo conectado y plan sin pruebas; INV03 no midió resultado",
+      "entregable": "Copias aisladas, BIA revisado, restauración y simulacro con acta",
+      "criterio": "Dos pruebas al año; RTO ≤ 8 h y RPO ≤ 4 h en piloto",
+      "responsable": "TI y Riesgos",
+      "meses": 7,
+      "predecesores": [
+        "PR-03"
+      ],
+      "inicial": 145000,
+      "anual": 36000,
+      "salida": 10000,
+      "margen_pct": 35
+    },
+    {
+      "codigo": "PR-03",
+      "proyecto": "Gobierno de seguridad auditable",
+      "categoria": "Operar",
+      "fuente": "Obligación normativa",
+      "seccion_origen": "4.1.5",
+      "objetivo": "OE-01",
+      "evidencia": "Ficha B, C y H: documento de seguridad sin implantar; validar alcance SBS",
+      "entregable": "Matriz normativa, política, roles, riesgos y repositorio de evidencias",
+      "criterio": "Política aprobada y todos los riesgos críticos con dueño y tratamiento",
+      "responsable": "Oficial de Seguridad y Riesgos",
+      "meses": 5,
+      "predecesores": [],
+      "inicial": 80000,
+      "anual": 18000,
+      "salida": 4000,
+      "margen_pct": 30
+    },
+    {
+      "codigo": "PR-04",
+      "proyecto": "Identidad y segundo factor",
+      "categoria": "Operar",
+      "fuente": "Brecha de arquitectura",
+      "seccion_origen": "5.4.2",
+      "objetivo": "OE-01",
+      "evidencia": "Ficha F: segundo factor disponible y no habilitado; política de contraseñas ausente",
+      "entregable": "Segundo factor, baja de cuentas y revisión de roles",
+      "criterio": "100 % de cuentas privilegiadas del piloto con segundo factor probado",
+      "responsable": "TI y Seguridad",
+      "meses": 4,
+      "predecesores": [
+        "PR-03"
+      ],
+      "inicial": 65000,
+      "anual": 14000,
+      "salida": 4000,
+      "margen_pct": 30
+    },
+    {
+      "codigo": "PR-05",
+      "proyecto": "Inventario y clasificación de activos",
+      "categoria": "Operar",
+      "fuente": "Brecha de capacidad",
+      "seccion_origen": "4.3.5",
+      "objetivo": "OE-01",
+      "evidencia": "Ficha F: no existe inventario de activos TI",
+      "entregable": "Inventario con dueño, criticidad y clasificación",
+      "criterio": "100 % de activos críticos del piloto inventariados y revisados",
+      "responsable": "TI y dueños de datos",
+      "meses": 3,
+      "predecesores": [
+        "PR-03"
+      ],
+      "inicial": 45000,
+      "anual": 9000,
+      "salida": 2000,
+      "margen_pct": 30
+    },
+    {
+      "codigo": "PR-06",
+      "proyecto": "Mesa de incidentes y cambios",
+      "categoria": "Operar",
+      "fuente": "Brecha de capacidad",
+      "seccion_origen": "4.3.5",
+      "objetivo": "OE-03",
+      "evidencia": "Ficha F: incidentes sin registro y cambios documentados después de aplicar",
+      "entregable": "Flujos de tickets, escalamiento y aprobación previa",
+      "criterio": "≥ 90 % de cambios críticos con autorización previa en el piloto",
+      "responsable": "Operaciones TI",
+      "meses": 4,
+      "predecesores": [
+        "PR-05"
+      ],
+      "inicial": 40000,
+      "anual": 9000,
+      "salida": 2000,
+      "margen_pct": 30
+    },
+    {
+      "codigo": "PR-07",
+      "proyecto": "Gestión de contratos y SLA",
+      "categoria": "Operar",
+      "fuente": "Brecha de capacidad",
+      "seccion_origen": "4.3.5",
+      "objetivo": "OE-03",
+      "evidencia": "Ficha F: no se controlan vencimientos; Ficha C: contrato SLA del core",
+      "entregable": "Registro, alertas de vencimiento y revisión trimestral",
+      "criterio": "100 % de contratos críticos registrados con responsable y alerta",
+      "responsable": "Administración y TI",
+      "meses": 3,
+      "predecesores": [],
+      "inicial": 35000,
+      "anual": 8000,
+      "salida": 2000,
+      "margen_pct": 25
+    },
+    {
+      "codigo": "PR-08",
+      "proyecto": "Autoservicio de solicitudes al socio",
+      "categoria": "Crecer",
+      "fuente": "Brecha de servicio digital",
+      "seccion_origen": "6.1.7",
+      "objetivo": "OE-04",
+      "evidencia": "Ficha C y D: canal web existente y atención en agencias; recorrido remoto no acreditado",
+      "entregable": "Piloto de solicitud y seguimiento digital integrado al canal existente",
+      "criterio": "≥ 60 % de trámites elegibles del piloto se completan en línea",
+      "responsable": "Atención al Socio y TI",
+      "meses": 8,
+      "predecesores": [
+        "PR-01",
+        "PR-09"
+      ],
+      "inicial": 140000,
+      "anual": 32000,
+      "salida": 10000,
+      "margen_pct": 40
+    },
+    {
+      "codigo": "PR-09",
+      "proyecto": "Integración segura de canales",
+      "categoria": "Crecer",
+      "fuente": "Brecha de arquitectura",
+      "seccion_origen": "5.4.2",
+      "objetivo": "OE-04",
+      "evidencia": "Ficha C: core, canal web y bureau separados; inventario de interfaces pendiente",
+      "entregable": "Inventario de interfaces, intercambio autenticado y pruebas de conciliación",
+      "criterio": "100 % de interfaces piloto con trazabilidad y prueba de recuperación",
+      "responsable": "Arquitectura TI",
+      "meses": 5,
+      "predecesores": [
+        "PR-04",
+        "PR-05"
+      ],
+      "inicial": 65000,
+      "anual": 14000,
+      "salida": 4000,
+      "margen_pct": 35
+    },
+    {
+      "codigo": "PR-10",
+      "proyecto": "Adopción asistida en agencias",
+      "categoria": "Crecer",
+      "fuente": "FODA cruzado",
+      "seccion_origen": "3.5",
+      "objetivo": "OE-04",
+      "evidencia": "Ficha A y D: 21 400 socios y agencias en Tacna y valles; hipótesis FO de extender canal existente",
+      "entregable": "Material accesible, formación y ayuda en agencias piloto",
+      "criterio": "≥ 80 % del personal piloto completa práctica; se mide adopción por agencia",
+      "responsable": "Atención al Socio",
+      "meses": 4,
+      "predecesores": [
+        "PR-08"
+      ],
+      "inicial": 45000,
+      "anual": 8000,
+      "salida": 2000,
+      "margen_pct": 30
+    },
+    {
+      "codigo": "PR-11",
+      "proyecto": "Gobierno de datos y beneficios",
+      "categoria": "Transformar",
+      "fuente": "FODA cruzado",
+      "seccion_origen": "3.5",
+      "objetivo": "OE-05",
+      "evidencia": "Expedientes e inversiones: 0 de 3 inversiones con beneficio medido; hipótesis DO",
+      "entregable": "Registro de inversiones, catálogo de métricas y revisiones a 90 y 180 días",
+      "criterio": "100 % de proyectos nuevos con indicador, dueño y revisión programada",
+      "responsable": "Finanzas y Comité TI",
+      "meses": 6,
+      "predecesores": [],
+      "inicial": 95000,
+      "anual": 16000,
+      "salida": 5000,
+      "margen_pct": 35
+    },
+    {
+      "codigo": "PR-12",
+      "proyecto": "Piloto de alertas operativas",
+      "categoria": "Transformar",
+      "fuente": "FODA cruzado",
+      "seccion_origen": "3.5",
+      "objetivo": "OE-01",
+      "evidencia": "Ficha G: detección por denuncia; oportunidad de alertar con la nueva bitácora",
+      "entregable": "Reglas de detección y revisión humana de alertas, sin decisiones automáticas",
+      "criterio": "100 % de accesos anómalos de prueba generan alerta investigable",
+      "responsable": "Riesgos y Seguridad",
+      "meses": 5,
+      "predecesores": [
+        "PR-01",
+        "PR-11"
+      ],
+      "inicial": 65000,
+      "anual": 14000,
+      "salida": 4000,
+      "margen_pct": 40
+    }
+  ],
+  "tco": [
+    {
+      "codigo": "PR-01",
+      "implementacion": 108000,
+      "capacitacion_inicial": 18000,
+      "migracion": 18000,
+      "integracion": 36000,
+      "inversion_inicial": 180000,
+      "licencias_anual": 10500,
+      "infra_anual": 6300,
+      "soporte_anual": 14700,
+      "personal_anual": 8400,
+      "capacitacion_anual": 2100,
+      "costo_anual": 42000,
+      "salida_ano_5": 10000,
+      "tco_5": 400000,
+      "factor": 2.22,
+      "operacion_pct": 52.5,
+      "margen_pct": 35,
+      "tco_min": 260000,
+      "tco_max": 540000,
+      "referencia": "INV02 y PT06; comparar alcance"
+    },
+    {
+      "codigo": "PR-02",
+      "implementacion": 87000,
+      "capacitacion_inicial": 14500,
+      "migracion": 14500,
+      "integracion": 29000,
+      "inversion_inicial": 145000,
+      "licencias_anual": 9000,
+      "infra_anual": 5400,
+      "soporte_anual": 12600,
+      "personal_anual": 7200,
+      "capacitacion_anual": 1800,
+      "costo_anual": 36000,
+      "salida_ano_5": 10000,
+      "tco_5": 335000,
+      "factor": 2.31,
+      "operacion_pct": 53.7,
+      "margen_pct": 35,
+      "tco_min": 217750,
+      "tco_max": 452250,
+      "referencia": "INV03 y PT03/PT07"
+    },
+    {
+      "codigo": "PR-08",
+      "implementacion": 84000,
+      "capacitacion_inicial": 14000,
+      "migracion": 14000,
+      "integracion": 28000,
+      "inversion_inicial": 140000,
+      "licencias_anual": 8000,
+      "infra_anual": 4800,
+      "soporte_anual": 11200,
+      "personal_anual": 6400,
+      "capacitacion_anual": 1600,
+      "costo_anual": 32000,
+      "salida_ano_5": 10000,
+      "tco_5": 310000,
+      "factor": 2.21,
+      "operacion_pct": 51.6,
+      "margen_pct": 40,
+      "tco_min": 186000,
+      "tco_max": 434000,
+      "referencia": "INV02 y PT06; comparar alcance"
+    },
+    {
+      "codigo": "PR-11",
+      "implementacion": 57000,
+      "capacitacion_inicial": 9500,
+      "migracion": 9500,
+      "integracion": 19000,
+      "inversion_inicial": 95000,
+      "licencias_anual": 4000,
+      "infra_anual": 2400,
+      "soporte_anual": 5600,
+      "personal_anual": 3200,
+      "capacitacion_anual": 800,
+      "costo_anual": 16000,
+      "salida_ano_5": 5000,
+      "tco_5": 180000,
+      "factor": 1.89,
+      "operacion_pct": 44.4,
+      "margen_pct": 35,
+      "tco_min": 117000,
+      "tco_max": 243000,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-03",
+      "implementacion": 48000,
+      "capacitacion_inicial": 8000,
+      "migracion": 8000,
+      "integracion": 16000,
+      "inversion_inicial": 80000,
+      "licencias_anual": 4500,
+      "infra_anual": 2700,
+      "soporte_anual": 6300,
+      "personal_anual": 3600,
+      "capacitacion_anual": 900,
+      "costo_anual": 18000,
+      "salida_ano_5": 4000,
+      "tco_5": 174000,
+      "factor": 2.17,
+      "operacion_pct": 51.7,
+      "margen_pct": 30,
+      "tco_min": 121800,
+      "tco_max": 226200,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-04",
+      "implementacion": 39000,
+      "capacitacion_inicial": 6500,
+      "migracion": 6500,
+      "integracion": 13000,
+      "inversion_inicial": 65000,
+      "licencias_anual": 3500,
+      "infra_anual": 2100,
+      "soporte_anual": 4900,
+      "personal_anual": 2800,
+      "capacitacion_anual": 700,
+      "costo_anual": 14000,
+      "salida_ano_5": 4000,
+      "tco_5": 139000,
+      "factor": 2.14,
+      "operacion_pct": 50.4,
+      "margen_pct": 30,
+      "tco_min": 97300,
+      "tco_max": 180700,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-09",
+      "implementacion": 39000,
+      "capacitacion_inicial": 6500,
+      "migracion": 6500,
+      "integracion": 13000,
+      "inversion_inicial": 65000,
+      "licencias_anual": 3500,
+      "infra_anual": 2100,
+      "soporte_anual": 4900,
+      "personal_anual": 2800,
+      "capacitacion_anual": 700,
+      "costo_anual": 14000,
+      "salida_ano_5": 4000,
+      "tco_5": 139000,
+      "factor": 2.14,
+      "operacion_pct": 50.4,
+      "margen_pct": 35,
+      "tco_min": 90350,
+      "tco_max": 187650,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-12",
+      "implementacion": 39000,
+      "capacitacion_inicial": 6500,
+      "migracion": 6500,
+      "integracion": 13000,
+      "inversion_inicial": 65000,
+      "licencias_anual": 3500,
+      "infra_anual": 2100,
+      "soporte_anual": 4900,
+      "personal_anual": 2800,
+      "capacitacion_anual": 700,
+      "costo_anual": 14000,
+      "salida_ano_5": 4000,
+      "tco_5": 139000,
+      "factor": 2.14,
+      "operacion_pct": 50.4,
+      "margen_pct": 40,
+      "tco_min": 83400,
+      "tco_max": 194600,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-05",
+      "implementacion": 27000,
+      "capacitacion_inicial": 4500,
+      "migracion": 4500,
+      "integracion": 9000,
+      "inversion_inicial": 45000,
+      "licencias_anual": 2250,
+      "infra_anual": 1350,
+      "soporte_anual": 3150,
+      "personal_anual": 1800,
+      "capacitacion_anual": 450,
+      "costo_anual": 9000,
+      "salida_ano_5": 2000,
+      "tco_5": 92000,
+      "factor": 2.04,
+      "operacion_pct": 48.9,
+      "margen_pct": 30,
+      "tco_min": 64400,
+      "tco_max": 119600,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-06",
+      "implementacion": 24000,
+      "capacitacion_inicial": 4000,
+      "migracion": 4000,
+      "integracion": 8000,
+      "inversion_inicial": 40000,
+      "licencias_anual": 2250,
+      "infra_anual": 1350,
+      "soporte_anual": 3150,
+      "personal_anual": 1800,
+      "capacitacion_anual": 450,
+      "costo_anual": 9000,
+      "salida_ano_5": 2000,
+      "tco_5": 87000,
+      "factor": 2.17,
+      "operacion_pct": 51.7,
+      "margen_pct": 30,
+      "tco_min": 60900,
+      "tco_max": 113100,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-10",
+      "implementacion": 27000,
+      "capacitacion_inicial": 4500,
+      "migracion": 4500,
+      "integracion": 9000,
+      "inversion_inicial": 45000,
+      "licencias_anual": 2000,
+      "infra_anual": 1200,
+      "soporte_anual": 2800,
+      "personal_anual": 1600,
+      "capacitacion_anual": 400,
+      "costo_anual": 8000,
+      "salida_ano_5": 2000,
+      "tco_5": 87000,
+      "factor": 1.93,
+      "operacion_pct": 46.0,
+      "margen_pct": 30,
+      "tco_min": 60900,
+      "tco_max": 113100,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    },
+    {
+      "codigo": "PR-07",
+      "implementacion": 21000,
+      "capacitacion_inicial": 3500,
+      "migracion": 3500,
+      "integracion": 7000,
+      "inversion_inicial": 35000,
+      "licencias_anual": 2000,
+      "infra_anual": 1200,
+      "soporte_anual": 2800,
+      "personal_anual": 1600,
+      "capacitacion_anual": 400,
+      "costo_anual": 8000,
+      "salida_ano_5": 2000,
+      "tco_5": 77000,
+      "factor": 2.2,
+      "operacion_pct": 51.9,
+      "margen_pct": 25,
+      "tco_min": 57750,
+      "tco_max": 96250,
+      "referencia": "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización"
+    }
+  ],
+  "casos": {
+    "PR-01": {
+      "titulo": "Expedientes de crédito trazables",
+      "resumen": [
+        [
+          "Problema y alcance",
+          "Ficha C y G: carpetas sin auditoría; 1 900 expedientes accedidos indebidamente. Repositorio con permisos por rol, migración piloto, bitácora de lectura y alertas."
+        ],
+        [
+          "Objetivo y éxito",
+          "OE-01 · 100 % de lecturas piloto trazadas; pruebas de permisos sin accesos indebidos."
+        ],
+        [
+          "Inacción",
+          "2 incidentes equivalentes/año × S/ 60 000 de respuesta y reproceso. Cinco años: S/ 600 000,00 de pérdida modelada; no es gasto observado."
+        ],
+        [
+          "Opciones",
+          "Mínima: Permisos y bitácora sobre carpetas actuales. Completa: Repositorio controlado, migración piloto, roles y alertas. Primero evaluar módulo de gestión documental compatible; comparar adaptación libre y desarrollo propio por integración, soporte y salida."
+        ],
+        [
+          "Recomendación",
+          "Completa en el escenario base: costo económico de S/ 460 000,00. Supera a la mínima si la exposición anual excede S/ 93 333,33 con iguales eficacias. Revaluar con costos y medición real antes de aprobar."
+        ],
+        [
+          "Riesgo, recursos y dependencias",
+          "Créditos y TI; 8 meses estimados; requiere PR-04, PR-05. Mitigar desviación con piloto, aceptación formal y revisión de beneficios a 90 y 180 días."
+        ]
+      ],
+      "alternativas": [
+        {
+          "codigo": "PR-01",
+          "alternativa": "No hacer nada",
+          "inversion_inicial": 0,
+          "costo_anual": 0,
+          "salida": 0,
+          "tco_5": 0,
+          "incertidumbre_pct": 35,
+          "tco_min": 0,
+          "tco_max": 0,
+          "inaccion_5": 600000,
+          "beneficio_incremental_5": 0,
+          "beneficio_frente_escenario_ideal_5": -600000,
+          "costo_economico_5": 600000,
+          "mejora_neta_vs_inaccion": 0,
+          "supuesto": "2 incidentes equivalentes/año × S/ 60 000 de respuesta y reproceso"
+        },
+        {
+          "codigo": "PR-01",
+          "alternativa": "Solución mínima",
+          "inversion_inicial": 90000,
+          "costo_anual": 19000,
+          "salida": 5000,
+          "tco_5": 190000,
+          "incertidumbre_pct": 35,
+          "tco_min": 123500,
+          "tco_max": 256500,
+          "inaccion_5": 600000,
+          "beneficio_incremental_5": 270000,
+          "beneficio_frente_escenario_ideal_5": -330000,
+          "costo_economico_5": 520000,
+          "mejora_neta_vs_inaccion": 80000,
+          "supuesto": "2 incidentes equivalentes/año × S/ 60 000 de respuesta y reproceso"
+        },
+        {
+          "codigo": "PR-01",
+          "alternativa": "Solución completa",
+          "inversion_inicial": 180000,
+          "costo_anual": 42000,
+          "salida": 10000,
+          "tco_5": 400000,
+          "incertidumbre_pct": 35,
+          "tco_min": 260000,
+          "tco_max": 540000,
+          "inaccion_5": 600000,
+          "beneficio_incremental_5": 540000,
+          "beneficio_frente_escenario_ideal_5": -60000,
+          "costo_economico_5": 460000,
+          "mejora_neta_vs_inaccion": 140000,
+          "supuesto": "2 incidentes equivalentes/año × S/ 60 000 de respuesta y reproceso"
+        }
+      ],
+      "impactos": [
+        [
+          "Sociedad",
+          "Socios",
+          "100 % de lecturas del piloto con trazabilidad; prueba con datos anonimizados.",
+          "Privacidad y acceso autorizado; revisión de cumplimiento."
+        ],
+        [
+          "Economía",
+          "Créditos y Finanzas",
+          "Medir horas de investigación por evento antes y después del piloto.",
+          "Sin requisito monetario inferido."
+        ],
+        [
+          "Salud y seguridad",
+          "Analistas",
+          "No se identifica efecto directo en salud física; medir reportes de exposición de datos.",
+          "Seguridad de la información, validar matriz."
+        ],
+        [
+          "Marco legal",
+          "Cumplimiento",
+          "100 % de roles piloto aprobados y evidencia de accesos retenida según política validada.",
+          "Protección de datos y alcance sectorial por validar."
+        ],
+        [
+          "Medio ambiente",
+          "Operaciones",
+          "Contar hojas por expediente en piloto; no estimar ahorro sin línea base.",
+          "Disposición de soportes según política aplicable."
+        ]
+      ]
+    },
+    "PR-02": {
+      "titulo": "Continuidad y recuperación verificable",
+      "resumen": [
+        [
+          "Problema y alcance",
+          "Ficha E, F y H: respaldo conectado y plan sin pruebas; INV03 no midió resultado. Copias aisladas, BIA revisado, restauración y simulacro con acta."
+        ],
+        [
+          "Objetivo y éxito",
+          "OE-02 · Dos pruebas al año; RTO ≤ 8 h y RPO ≤ 4 h en piloto."
+        ],
+        [
+          "Inacción",
+          "2 interrupciones equivalentes/año × S/ 50 000 de interrupción y recuperación. Cinco años: S/ 500 000,00 de pérdida modelada; no es gasto observado."
+        ],
+        [
+          "Opciones",
+          "Mínima: Copia aislada y restauración manual. Completa: Copias aisladas, restauración automatizada y simulacros. Comparar ampliar la solución existente, adaptar herramientas abiertas y construir automatización; exigir prueba de recuperación y portabilidad."
+        ],
+        [
+          "Recomendación",
+          "Completa en el escenario base: costo económico de S/ 395 000,00. Supera a la mínima si la exposición anual excede S/ 72 093,02 con iguales eficacias. Revaluar con costos y medición real antes de aprobar."
+        ],
+        [
+          "Riesgo, recursos y dependencias",
+          "TI y Riesgos; 7 meses estimados; requiere PR-03. Mitigar desviación con piloto, aceptación formal y revisión de beneficios a 90 y 180 días."
+        ]
+      ],
+      "alternativas": [
+        {
+          "codigo": "PR-02",
+          "alternativa": "No hacer nada",
+          "inversion_inicial": 0,
+          "costo_anual": 0,
+          "salida": 0,
+          "tco_5": 0,
+          "incertidumbre_pct": 35,
+          "tco_min": 0,
+          "tco_max": 0,
+          "inaccion_5": 500000,
+          "beneficio_incremental_5": 0,
+          "beneficio_frente_escenario_ideal_5": -500000,
+          "costo_economico_5": 500000,
+          "mejora_neta_vs_inaccion": 0,
+          "supuesto": "2 interrupciones equivalentes/año × S/ 50 000 de interrupción y recuperación"
+        },
+        {
+          "codigo": "PR-02",
+          "alternativa": "Solución mínima",
+          "inversion_inicial": 70000,
+          "costo_anual": 21000,
+          "salida": 5000,
+          "tco_5": 180000,
+          "incertidumbre_pct": 35,
+          "tco_min": 117000,
+          "tco_max": 243000,
+          "inaccion_5": 500000,
+          "beneficio_incremental_5": 225000,
+          "beneficio_frente_escenario_ideal_5": -275000,
+          "costo_economico_5": 455000,
+          "mejora_neta_vs_inaccion": 45000,
+          "supuesto": "2 interrupciones equivalentes/año × S/ 50 000 de interrupción y recuperación"
+        },
+        {
+          "codigo": "PR-02",
+          "alternativa": "Solución completa",
+          "inversion_inicial": 145000,
+          "costo_anual": 36000,
+          "salida": 10000,
+          "tco_5": 335000,
+          "incertidumbre_pct": 35,
+          "tco_min": 217750,
+          "tco_max": 452250,
+          "inaccion_5": 500000,
+          "beneficio_incremental_5": 440000,
+          "beneficio_frente_escenario_ideal_5": -60000,
+          "costo_economico_5": 395000,
+          "mejora_neta_vs_inaccion": 105000,
+          "supuesto": "2 interrupciones equivalentes/año × S/ 50 000 de interrupción y recuperación"
+        }
+      ],
+      "impactos": [
+        [
+          "Sociedad",
+          "Socios y agencias",
+          "Medir duración de interrupciones en dos ejercicios al año.",
+          "Continuidad del servicio, validar alcance."
+        ],
+        [
+          "Economía",
+          "TI y Finanzas",
+          "Medir horas de indisponibilidad y de recuperación.",
+          "Sin requisito monetario inferido."
+        ],
+        [
+          "Salud y seguridad",
+          "TI",
+          "No hay efecto sanitario directo; comprobar acceso controlado a respaldos.",
+          "Seguridad de la información."
+        ],
+        [
+          "Marco legal",
+          "Riesgos y Auditoría",
+          "Dos actas de recuperación por año; verificar meta RTO/RPO.",
+          "Obligaciones de continuidad sujetas a la matriz."
+        ],
+        [
+          "Medio ambiente",
+          "TI",
+          "Inventariar equipos retirados y registrar entrega de medios a gestión autorizada.",
+          "Validar política de residuos y borrado."
+        ]
+      ]
+    },
+    "PR-08": {
+      "titulo": "Autoservicio de solicitudes al socio",
+      "resumen": [
+        [
+          "Problema y alcance",
+          "Ficha C y D: canal web existente y atención en agencias; recorrido remoto no acreditado. Piloto de solicitud y seguimiento digital integrado al canal existente."
+        ],
+        [
+          "Objetivo y éxito",
+          "OE-04 · ≥ 60 % de trámites elegibles del piloto se completan en línea."
+        ],
+        [
+          "Inacción",
+          "25 000 solicitudes elegibles/año × 8 min × S/ 30 por hora de atención. Cinco años: S/ 500 000,00 de pérdida modelada; no es gasto observado."
+        ],
+        [
+          "Opciones",
+          "Mínima: Formulario y seguimiento semimanual. Completa: Trámite integrado, autenticado y con notificación al socio. Evaluar extensión del proveedor actual, adaptación libre o desarrollo propio; exigir acceso a interfaces, prueba de integración y costo de salida."
+        ],
+        [
+          "Recomendación",
+          "Completa en el escenario base: costo económico de S/ 385 000,00. Supera a la mínima si la exposición anual excede S/ 68 888,89 con iguales eficacias. Revaluar con costos y medición real antes de aprobar."
+        ],
+        [
+          "Riesgo, recursos y dependencias",
+          "Atención al Socio y TI; 8 meses estimados; requiere PR-01, PR-09. Mitigar desviación con piloto, aceptación formal y revisión de beneficios a 90 y 180 días."
+        ]
+      ],
+      "alternativas": [
+        {
+          "codigo": "PR-08",
+          "alternativa": "No hacer nada",
+          "inversion_inicial": 0,
+          "costo_anual": 0,
+          "salida": 0,
+          "tco_5": 0,
+          "incertidumbre_pct": 40,
+          "tco_min": 0,
+          "tco_max": 0,
+          "inaccion_5": 500000,
+          "beneficio_incremental_5": 0,
+          "beneficio_frente_escenario_ideal_5": -500000,
+          "costo_economico_5": 500000,
+          "mejora_neta_vs_inaccion": 0,
+          "supuesto": "25 000 solicitudes elegibles/año × 8 min × S/ 30 por hora de atención"
+        },
+        {
+          "codigo": "PR-08",
+          "alternativa": "Solución mínima",
+          "inversion_inicial": 70000,
+          "costo_anual": 16000,
+          "salida": 5000,
+          "tco_5": 155000,
+          "incertidumbre_pct": 40,
+          "tco_min": 93000,
+          "tco_max": 217000,
+          "inaccion_5": 500000,
+          "beneficio_incremental_5": 200000,
+          "beneficio_frente_escenario_ideal_5": -300000,
+          "costo_economico_5": 455000,
+          "mejora_neta_vs_inaccion": 45000,
+          "supuesto": "25 000 solicitudes elegibles/año × 8 min × S/ 30 por hora de atención"
+        },
+        {
+          "codigo": "PR-08",
+          "alternativa": "Solución completa",
+          "inversion_inicial": 140000,
+          "costo_anual": 32000,
+          "salida": 10000,
+          "tco_5": 310000,
+          "incertidumbre_pct": 40,
+          "tco_min": 186000,
+          "tco_max": 434000,
+          "inaccion_5": 500000,
+          "beneficio_incremental_5": 425000,
+          "beneficio_frente_escenario_ideal_5": -75000,
+          "costo_economico_5": 385000,
+          "mejora_neta_vs_inaccion": 115000,
+          "supuesto": "25 000 solicitudes elegibles/año × 8 min × S/ 30 por hora de atención"
+        }
+      ],
+      "impactos": [
+        [
+          "Sociedad",
+          "Socios de agencias y valles",
+          "≥ 60 % de trámites elegibles completos en línea; mantener canal asistido.",
+          "Accesibilidad y privacidad; validar requisitos."
+        ],
+        [
+          "Economía",
+          "Socios y Atención",
+          "Medir minutos de atención por solicitud y volumen; contrastar con hipótesis de 8 minutos.",
+          "Sin requisito monetario inferido."
+        ],
+        [
+          "Salud y seguridad",
+          "Socios",
+          "No se identifica efecto sanitario directo; medir incidentes de autenticación.",
+          "Protección de credenciales y datos."
+        ],
+        [
+          "Marco legal",
+          "Cumplimiento",
+          "100 % de flujos piloto con aviso de privacidad y revisión de permisos.",
+          "Tratamiento de datos y requisitos del canal por validar."
+        ],
+        [
+          "Medio ambiente",
+          "Socios",
+          "Medir visitas presenciales evitadas; no convertir a emisiones sin datos de distancia y transporte.",
+          "No se identifica obligación ambiental directa para el piloto."
+        ]
+      ]
+    }
+  },
+  "presupuesto": {
+    "actual": [
+      1030973.58,
+      113753.77
+    ],
+    "plan": [
+      1140800.0,
+      99200.0
+    ],
+    "new": [
+      590000,
+      250000,
+      160000
+    ],
+    "pagos": 2342,
+    "pagos_ti": 3705118.58,
+    "proveedores": 60
+  },
+  "orden": [
+    "PR-03",
+    "PR-07",
+    "PR-11",
+    "PR-02",
+    "PR-04",
+    "PR-05",
+    "PR-01",
+    "PR-06",
+    "PR-09",
+    "PR-12",
+    "PR-08",
+    "PR-10"
+  ],
+  "cobertura": {
+    "OE-01": [
+      "PR-01",
+      "PR-03",
+      "PR-04",
+      "PR-05",
+      "PR-12"
+    ],
+    "OE-02": [
+      "PR-02"
+    ],
+    "OE-03": [
+      "PR-06",
+      "PR-07"
+    ],
+    "OE-04": [
+      "PR-08",
+      "PR-09",
+      "PR-10"
+    ],
+    "OE-05": [
+      "PR-11"
+    ]
+  },
+  "objetivos": {
+    "OE-01": "Proteger expedientes: 100 % de lecturas auditadas en el piloto y cero accesos indebidos en pruebas de aceptación.",
+    "OE-02": "Recuperar servicios críticos: dos simulacros por año con RTO ≤ 8 h y RPO ≤ 4 h, metas sujetas a aprobación del BIA.",
+    "OE-03": "Asegurar operación TI: ≥ 90 % de cambios críticos aprobados antes del despliegue y 100 % de contratos críticos con aviso.",
+    "OE-04": "Extender autoservicio: ≥ 60 % de solicitudes elegibles del piloto terminadas sin acudir a agencia.",
+    "OE-05": "Demostrar valor: 100 % de proyectos nuevos con revisión de beneficios a los 90 y 180 días."
+  },
+  "secciones": [
+    [
+      "7.1.1 Fuentes admisibles y control de admisión",
+      "Se reconstruyeron las cinco fuentes del método de la Semana 13 con hechos de la empresa 04: normativa (4.1.5), arquitectura (5.4.2), capacidad (4.3.5), FODA cruzado (3.5) y servicio digital (6.1.7). Las referencias son secciones destino, no matrices del equipo ya aprobadas. 16 candidatos: 12 admitidos, 2 fusionados y 2 retirados. La bitácora de lectura queda en PR-01 y la prueba de recuperación en PR-02. Se retiraron los drones y el reemplazo del core por falta de sustento."
+    ],
+    [
+      "7.1.2 Portafolio de proyectos",
+      "Los doce proyectos se detallan en PF01. Cada uno cita una fuente, un hecho y un objetivo propuesto. Se recomienda iniciar la gobernanza auditable y reservar la expansión del canal a los hitos de identidad, expedientes e integración."
+    ],
+    [
+      "7.1.3 Fichas de proyecto",
+      "PF03 contiene doce fichas de veinte campos con alcance, exclusiones, responsable propuesto, plazo, dependencias, estimaciones y aceptación medible. No se han asignado nombres ni fechas de contratación."
+    ],
+    [
+      "7.1.4 Costo total de propiedad",
+      "La inversión inicial estimada es S/ 1 000 000,00; el TCO nominal de cinco años es S/ 2 159 000,00 (2.16 veces la inversión). Incluye implementación, migración, integración, capacitación, operación anual y salida. Los repartos son paramétricos, contrastados con las partidas históricas y los expedientes, y no son cotizaciones. El filtro Servicio informático identifica 2,342 pagos por S/ 3 705 118,58; supera el presupuesto TI anual y no está conciliado por centro de costo. No se traslada al TCO."
+    ],
+    [
+      "7.1.5 Casos de negocio",
+      "PR-01, PR-02 y PR-08 tienen los mayores TCO. Para cada uno se comparó mantener la situación, solución mínima y solución completa. La opción completa obtiene el menor costo económico en los supuestos base, pero depende de validar la exposición y la eficacia. Las inversiones históricas no registran beneficios medidos (0 de 3). Se propone revisión a los 90 y 180 días."
+    ],
+    [
+      "7.1.6 Balance del portafolio",
+      "El plan histórico asigna 92.0 % a operación y 8.0 % a inversión sin desagregar. El ejecutado registra 90.1 % y 9.9 %, respectivamente. La inversión inicial propuesta se distribuye 59 % operar, 25 % crecer y 16 % transformar, dentro de los intervalos orientativos 50–70 %, 20–30 % y 10–20 %. Son bases distintas: gasto histórico anual frente a proyectos acumulados. No se infiere que la propuesta esté financiada; debe escalonarse."
+    ],
+    [
+      "7.1.7 Dependencias",
+      "El orden topológico es PR-03 → PR-07 → PR-11 → PR-02 → PR-04 → PR-05 → PR-01 → PR-06 → PR-09 → PR-12 → PR-08 → PR-10. Las olas indican precedencia técnica, no un cronograma financiado. PR-03 habilita seguridad e inventario; PR-04 y PR-05 preceden integración y expedientes. PR-01 y PR-09 habilitan el autoservicio PR-08."
+    ],
+    [
+      "7.1.8 Cobertura de objetivos",
+      "Los cinco objetivos propuestos tienen al menos un proyecto. La cobertura de la sección 6.2 aprobada sigue pendiente porque esa sección no se entregó."
+    ]
+  ],
+  "fichas": {
+    "PR-01": [
+      [
+        "Código",
+        "PR-01"
+      ],
+      [
+        "Nombre",
+        "Expedientes de crédito trazables"
+      ],
+      [
+        "Categoría",
+        "Operar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de arquitectura · 5.4.2 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha C y G: carpetas sin auditoría; 1 900 expedientes accedidos indebidamente"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-01 · Proteger expedientes: 100 % de lecturas auditadas en el piloto y cero accesos indebidos en pruebas de aceptación."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Créditos y TI"
+      ],
+      [
+        "Alcance y entregables",
+        "Repositorio con permisos por rol, migración piloto, bitácora de lectura y alertas"
+      ],
+      [
+        "Exclusiones",
+        "Reemplazo del core ni digitalización retrospectiva de todos los archivos"
+      ],
+      [
+        "Beneficiarios",
+        "Socios y personal en alcance piloto"
+      ],
+      [
+        "Plazo y ola",
+        "8 meses estimados · ola 3; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-04, PR-05"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 180 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 42 000,00 por año; salida: S/ 10 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 400 000,00 · factor 2.22×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "INV02 y PT06; comparar alcance. Supuesto académico ±35 %: S/ 260 000,00 a S/ 540 000,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "100 % de lecturas piloto trazadas; pruebas de permisos sin accesos indebidos. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-02": [
+      [
+        "Código",
+        "PR-02"
+      ],
+      [
+        "Nombre",
+        "Continuidad y recuperación verificable"
+      ],
+      [
+        "Categoría",
+        "Operar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de arquitectura · 5.4.2 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha E, F y H: respaldo conectado y plan sin pruebas; INV03 no midió resultado"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-02 · Recuperar servicios críticos: dos simulacros por año con RTO ≤ 8 h y RPO ≤ 4 h, metas sujetas a aprobación del BIA."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "TI y Riesgos"
+      ],
+      [
+        "Alcance y entregables",
+        "Copias aisladas, BIA revisado, restauración y simulacro con acta"
+      ],
+      [
+        "Exclusiones",
+        "Reemplazo del core ni obra de centro de datos"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "7 meses estimados · ola 2; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-03"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 145 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 36 000,00 por año; salida: S/ 10 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 335 000,00 · factor 2.31×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "INV03 y PT03/PT07. Supuesto académico ±35 %: S/ 217 750,00 a S/ 452 250,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "Dos pruebas al año; RTO ≤ 8 h y RPO ≤ 4 h en piloto. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-03": [
+      [
+        "Código",
+        "PR-03"
+      ],
+      [
+        "Nombre",
+        "Gobierno de seguridad auditable"
+      ],
+      [
+        "Categoría",
+        "Operar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Obligación normativa · 4.1.5 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha B, C y H: documento de seguridad sin implantar; validar alcance SBS"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-01 · Proteger expedientes: 100 % de lecturas auditadas en el piloto y cero accesos indebidos en pruebas de aceptación."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Oficial de Seguridad y Riesgos"
+      ],
+      [
+        "Alcance y entregables",
+        "Matriz normativa, política, roles, riesgos y repositorio de evidencias"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "5 meses estimados · ola 1; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "Sin dependencia técnica interna en este escenario"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 80 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 18 000,00 por año; salida: S/ 4 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 174 000,00 · factor 2.17×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±30 %: S/ 121 800,00 a S/ 226 200,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "Política aprobada y todos los riesgos críticos con dueño y tratamiento. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-04": [
+      [
+        "Código",
+        "PR-04"
+      ],
+      [
+        "Nombre",
+        "Identidad y segundo factor"
+      ],
+      [
+        "Categoría",
+        "Operar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de arquitectura · 5.4.2 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha F: segundo factor disponible y no habilitado; política de contraseñas ausente"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-01 · Proteger expedientes: 100 % de lecturas auditadas en el piloto y cero accesos indebidos en pruebas de aceptación."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "TI y Seguridad"
+      ],
+      [
+        "Alcance y entregables",
+        "Segundo factor, baja de cuentas y revisión de roles"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "4 meses estimados · ola 2; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-03"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 65 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 14 000,00 por año; salida: S/ 4 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 139 000,00 · factor 2.14×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±30 %: S/ 97 300,00 a S/ 180 700,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "100 % de cuentas privilegiadas del piloto con segundo factor probado. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-05": [
+      [
+        "Código",
+        "PR-05"
+      ],
+      [
+        "Nombre",
+        "Inventario y clasificación de activos"
+      ],
+      [
+        "Categoría",
+        "Operar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de capacidad · 4.3.5 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha F: no existe inventario de activos TI"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-01 · Proteger expedientes: 100 % de lecturas auditadas en el piloto y cero accesos indebidos en pruebas de aceptación."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "TI y dueños de datos"
+      ],
+      [
+        "Alcance y entregables",
+        "Inventario con dueño, criticidad y clasificación"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "3 meses estimados · ola 2; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-03"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 45 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 9 000,00 por año; salida: S/ 2 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 92 000,00 · factor 2.04×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±30 %: S/ 64 400,00 a S/ 119 600,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "100 % de activos críticos del piloto inventariados y revisados. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-06": [
+      [
+        "Código",
+        "PR-06"
+      ],
+      [
+        "Nombre",
+        "Mesa de incidentes y cambios"
+      ],
+      [
+        "Categoría",
+        "Operar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de capacidad · 4.3.5 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha F: incidentes sin registro y cambios documentados después de aplicar"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-03 · Asegurar operación TI: ≥ 90 % de cambios críticos aprobados antes del despliegue y 100 % de contratos críticos con aviso."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Operaciones TI"
+      ],
+      [
+        "Alcance y entregables",
+        "Flujos de tickets, escalamiento y aprobación previa"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "4 meses estimados · ola 3; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-05"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 40 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 9 000,00 por año; salida: S/ 2 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 87 000,00 · factor 2.17×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±30 %: S/ 60 900,00 a S/ 113 100,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "≥ 90 % de cambios críticos con autorización previa en el piloto. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-07": [
+      [
+        "Código",
+        "PR-07"
+      ],
+      [
+        "Nombre",
+        "Gestión de contratos y SLA"
+      ],
+      [
+        "Categoría",
+        "Operar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de capacidad · 4.3.5 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha F: no se controlan vencimientos; Ficha C: contrato SLA del core"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-03 · Asegurar operación TI: ≥ 90 % de cambios críticos aprobados antes del despliegue y 100 % de contratos críticos con aviso."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Administración y TI"
+      ],
+      [
+        "Alcance y entregables",
+        "Registro, alertas de vencimiento y revisión trimestral"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "3 meses estimados · ola 1; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "Sin dependencia técnica interna en este escenario"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 35 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 8 000,00 por año; salida: S/ 2 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 77 000,00 · factor 2.20×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±25 %: S/ 57 750,00 a S/ 96 250,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "100 % de contratos críticos registrados con responsable y alerta. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-08": [
+      [
+        "Código",
+        "PR-08"
+      ],
+      [
+        "Nombre",
+        "Autoservicio de solicitudes al socio"
+      ],
+      [
+        "Categoría",
+        "Crecer"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de servicio digital · 6.1.7 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha C y D: canal web existente y atención en agencias; recorrido remoto no acreditado"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-04 · Extender autoservicio: ≥ 60 % de solicitudes elegibles del piloto terminadas sin acudir a agencia."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Atención al Socio y TI"
+      ],
+      [
+        "Alcance y entregables",
+        "Piloto de solicitud y seguimiento digital integrado al canal existente"
+      ],
+      [
+        "Exclusiones",
+        "Migración del core ni nuevos productos financieros"
+      ],
+      [
+        "Beneficiarios",
+        "Socios y personal en alcance piloto"
+      ],
+      [
+        "Plazo y ola",
+        "8 meses estimados · ola 4; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-01, PR-09"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 140 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 32 000,00 por año; salida: S/ 10 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 310 000,00 · factor 2.21×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "INV02 y PT06; comparar alcance. Supuesto académico ±40 %: S/ 186 000,00 a S/ 434 000,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "≥ 60 % de trámites elegibles del piloto se completan en línea. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-09": [
+      [
+        "Código",
+        "PR-09"
+      ],
+      [
+        "Nombre",
+        "Integración segura de canales"
+      ],
+      [
+        "Categoría",
+        "Crecer"
+      ],
+      [
+        "Fuente y sección PETI",
+        "Brecha de arquitectura · 5.4.2 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha C: core, canal web y bureau separados; inventario de interfaces pendiente"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-04 · Extender autoservicio: ≥ 60 % de solicitudes elegibles del piloto terminadas sin acudir a agencia."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Arquitectura TI"
+      ],
+      [
+        "Alcance y entregables",
+        "Inventario de interfaces, intercambio autenticado y pruebas de conciliación"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "5 meses estimados · ola 3; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-04, PR-05"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 65 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 14 000,00 por año; salida: S/ 4 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 139 000,00 · factor 2.14×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±35 %: S/ 90 350,00 a S/ 187 650,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "100 % de interfaces piloto con trazabilidad y prueba de recuperación. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-10": [
+      [
+        "Código",
+        "PR-10"
+      ],
+      [
+        "Nombre",
+        "Adopción asistida en agencias"
+      ],
+      [
+        "Categoría",
+        "Crecer"
+      ],
+      [
+        "Fuente y sección PETI",
+        "FODA cruzado · 3.5 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha A y D: 21 400 socios y agencias en Tacna y valles; hipótesis FO de extender canal existente"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-04 · Extender autoservicio: ≥ 60 % de solicitudes elegibles del piloto terminadas sin acudir a agencia."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Atención al Socio"
+      ],
+      [
+        "Alcance y entregables",
+        "Material accesible, formación y ayuda en agencias piloto"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Socios y personal en alcance piloto"
+      ],
+      [
+        "Plazo y ola",
+        "4 meses estimados · ola 5; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-08"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 45 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 8 000,00 por año; salida: S/ 2 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 87 000,00 · factor 1.93×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±30 %: S/ 60 900,00 a S/ 113 100,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "≥ 80 % del personal piloto completa práctica; se mide adopción por agencia. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-11": [
+      [
+        "Código",
+        "PR-11"
+      ],
+      [
+        "Nombre",
+        "Gobierno de datos y beneficios"
+      ],
+      [
+        "Categoría",
+        "Transformar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "FODA cruzado · 3.5 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Expedientes e inversiones: 0 de 3 inversiones con beneficio medido; hipótesis DO"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-05 · Demostrar valor: 100 % de proyectos nuevos con revisión de beneficios a los 90 y 180 días."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Finanzas y Comité TI"
+      ],
+      [
+        "Alcance y entregables",
+        "Registro de inversiones, catálogo de métricas y revisiones a 90 y 180 días"
+      ],
+      [
+        "Exclusiones",
+        "Despliegue fuera del alcance piloto ni sustitución del core"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "6 meses estimados · ola 1; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "Sin dependencia técnica interna en este escenario"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 95 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 16 000,00 por año; salida: S/ 5 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 180 000,00 · factor 1.89×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±35 %: S/ 117 000,00 a S/ 243 000,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "100 % de proyectos nuevos con indicador, dueño y revisión programada. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ],
+    "PR-12": [
+      [
+        "Código",
+        "PR-12"
+      ],
+      [
+        "Nombre",
+        "Piloto de alertas operativas"
+      ],
+      [
+        "Categoría",
+        "Transformar"
+      ],
+      [
+        "Fuente y sección PETI",
+        "FODA cruzado · 3.5 (reconstrucción de trabajo)"
+      ],
+      [
+        "Evidencia del problema",
+        "Ficha G: detección por denuncia; oportunidad de alertar con la nueva bitácora"
+      ],
+      [
+        "Objetivo vinculado",
+        "OE-01 · Proteger expedientes: 100 % de lecturas auditadas en el piloto y cero accesos indebidos en pruebas de aceptación."
+      ],
+      [
+        "Patrocinio propuesto",
+        "Gerencia General; aprobación pendiente"
+      ],
+      [
+        "Responsable propuesto",
+        "Riesgos y Seguridad"
+      ],
+      [
+        "Alcance y entregables",
+        "Reglas de detección y revisión humana de alertas, sin decisiones automáticas"
+      ],
+      [
+        "Exclusiones",
+        "Decisiones automáticas sobre créditos o socios"
+      ],
+      [
+        "Beneficiarios",
+        "Áreas responsables de la operación y el control"
+      ],
+      [
+        "Plazo y ola",
+        "5 meses estimados · ola 4; no implica fecha aprobada"
+      ],
+      [
+        "Dependencias",
+        "PR-01, PR-11"
+      ],
+      [
+        "Recursos",
+        "Equipo TI de cinco personas compartido, responsable funcional y soporte externo sujeto a presupuesto"
+      ],
+      [
+        "Inversión inicial",
+        "S/ 65 000,00"
+      ],
+      [
+        "Operación anual y salida",
+        "S/ 14 000,00 por año; salida: S/ 4 000,00 al año 5"
+      ],
+      [
+        "TCO a cinco años",
+        "S/ 139 000,00 · factor 2.14×"
+      ],
+      [
+        "Origen e incertidumbre",
+        "PT01/PT02/PT05/PT07; orden de magnitud de alcance, validar cotización. Supuesto académico ±40 %: S/ 83 400,00 a S/ 194 600,00."
+      ],
+      [
+        "Riesgo y respuesta",
+        "Capacidad limitada o costo mayor al previsto; aprobar por hitos, verificar alcance piloto y recotizar antes de contratar."
+      ],
+      [
+        "Criterio de aceptación y medición",
+        "100 % de accesos anómalos de prueba generan alerta investigable. Dueño funcional registra línea base y evidencia del piloto."
+      ]
+    ]
+  }
+}

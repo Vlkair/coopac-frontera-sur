@@ -1,0 +1,13 @@
+16 candidatos: 12 admitidos, 2 fusionados, 2 retirados. Cinco fuentes reconstruidas; aprobación PETI pendiente.
+PR-01 OE-01 5.4.2 Expedientes de crédito trazables
+PR-02 OE-02 5.4.2 Continuidad y recuperación verificable
+PR-03 OE-01 4.1.5 Gobierno de seguridad auditable
+PR-04 OE-01 5.4.2 Identidad y segundo factor
+PR-05 OE-01 4.3.5 Inventario y clasificación de activos
+PR-06 OE-03 4.3.5 Mesa de incidentes y cambios
+PR-07 OE-03 4.3.5 Gestión de contratos y SLA
+PR-08 OE-04 6.1.7 Autoservicio de solicitudes al socio
+PR-09 OE-04 5.4.2 Integración segura de canales
+PR-10 OE-04 3.5 Adopción asistida en agencias
+PR-11 OE-05 3.5 Gobierno de datos y beneficios
+PR-12 OE-01 3.5 Piloto de alertas operativas

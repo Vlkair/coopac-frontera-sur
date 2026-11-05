@@ -1,0 +1,10 @@
+﻿codigo,alternativa,inversion_inicial,costo_anual,salida,tco_5,incertidumbre_pct,tco_min,tco_max,inaccion_5,beneficio_incremental_5,beneficio_frente_escenario_ideal_5,costo_economico_5,mejora_neta_vs_inaccion,supuesto
+PR-01,No hacer nada,0,0,0,0,35,0,0,600000,0,-600000,600000,0,2 incidentes equivalentes/año × S/ 60 000 de respuesta y reproceso
+PR-01,Solución mínima,90000,19000,5000,190000,35,123500,256500,600000,270000,-330000,520000,80000,2 incidentes equivalentes/año × S/ 60 000 de respuesta y reproceso
+PR-01,Solución completa,180000,42000,10000,400000,35,260000,540000,600000,540000,-60000,460000,140000,2 incidentes equivalentes/año × S/ 60 000 de respuesta y reproceso
+PR-02,No hacer nada,0,0,0,0,35,0,0,500000,0,-500000,500000,0,2 interrupciones equivalentes/año × S/ 50 000 de interrupción y recuperación
+PR-02,Solución mínima,70000,21000,5000,180000,35,117000,243000,500000,225000,-275000,455000,45000,2 interrupciones equivalentes/año × S/ 50 000 de interrupción y recuperación
+PR-02,Solución completa,145000,36000,10000,335000,35,217750,452250,500000,440000,-60000,395000,105000,2 interrupciones equivalentes/año × S/ 50 000 de interrupción y recuperación
+PR-08,No hacer nada,0,0,0,0,40,0,0,500000,0,-500000,500000,0,25 000 solicitudes elegibles/año × 8 min × S/ 30 por hora de atención
+PR-08,Solución mínima,70000,16000,5000,155000,40,93000,217000,500000,200000,-300000,455000,45000,25 000 solicitudes elegibles/año × 8 min × S/ 30 por hora de atención
+PR-08,Solución completa,140000,32000,10000,310000,40,186000,434000,500000,425000,-75000,385000,115000,25 000 solicitudes elegibles/año × 8 min × S/ 30 por hora de atención

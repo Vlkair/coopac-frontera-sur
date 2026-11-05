@@ -1,0 +1,7 @@
+VALIDACIÓN DEL ESCENARIO
+1. 12/12 proyectos con objetivo propuesto; 5/5 objetivos propuestos cubiertos.
+2. C-13 y C-14 fusionados. Se verificó que PR-01 conserva bitácora de lectura y PR-02 incluye restauración.
+3. 12/12 TCO incluyen cinco años de costo anual y salida. Los tres casos corresponden a los mayores TCO.
+4. Orden topológico calculado sin ciclos y verificado para todos los predecesores.
+5. Comparación histórica reconciliada con las partidas del presupuesto. El filtro de pagos no se usa como imputación al no haber conciliación por centro de costo.
+Pendiente: sustituir trazabilidad provisional por la matriz PETI aprobada, validar BIA/alcance regulatorio, obtener cotizaciones y aprobar capacidad y financiación.

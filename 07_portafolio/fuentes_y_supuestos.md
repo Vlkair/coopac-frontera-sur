@@ -1,0 +1,8 @@
+# Fuentes y límites de la estimación
+
+- [Ficha de la empresa 04, caso del curso](https://github.com/OscarJimenezFlores/PETI/blob/5a1cb79deb1dc1cb6508082f7b786f682bdd3d35/SEMANA-12/RECURSOS-TALLER/EMPRESA-04-coopac-frontera-sur/FICHA.md). Las letras citadas en PF01 corresponden a sus apartados.
+- `expedientes-de-inversion.md`, `inversiones_cerradas.csv`, `presupuesto_ti.csv` y `pagos.csv`: insumos de la raíz del repositorio base. Los programas usan estos originales sin modificarlos. El paquete técnico no vuelve a incluir las bases originales.
+- El presupuesto se separó por la columna `tipo`. La inversión histórica no permite distinguir crecer de transformar. Los pagos candidatos por concepto, estado, moneda y fecha carecen de centro de costo o conciliación; no se suman a las partidas de presupuesto ni al TCO.
+- Los importes iniciales y recurrentes del modelo son supuestos académicos de alcance piloto, comparados con órdenes de magnitud de expedientes y partidas del caso. No son cotizaciones ni valores estadísticamente estimados. El margen por proyecto se usa como banda de sensibilidad, no como intervalo de confianza. Los rangos de cartera suman extremos individuales y no representan probabilidades.
+- Las exposiciones de inacción son ejercicios por caso. No se deben sumar sin depurar eventos o beneficios que se solapen. El análisis compara costo económico nominal a cinco años; no se calcula un VAN ni se presume financiación.
+- Las secciones de origen y objetivos son reconstrucciones de trabajo. Sustituirlas por la trazabilidad de las secciones aprobadas antes de publicar o cerrar el taller.

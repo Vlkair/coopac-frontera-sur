@@ -1,0 +1,13 @@
+﻿codigo,ola,predecesores,habilitador
+PR-03,1,,True
+PR-07,1,,False
+PR-11,1,,True
+PR-02,2,PR-03,False
+PR-04,2,PR-03,True
+PR-05,2,PR-03,True
+PR-01,3,PR-04; PR-05,True
+PR-06,3,PR-05,False
+PR-09,3,PR-04; PR-05,True
+PR-12,4,PR-01; PR-11,False
+PR-08,4,PR-01; PR-09,True
+PR-10,5,PR-08,False
